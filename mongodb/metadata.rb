@@ -1,6 +1,6 @@
 name 'mongodb'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Dzuy Tran'
+maintainer_email 'dzuyt@perfectomobile.com'
 license 'All Rights Reserved'
 description 'Installs/Configures mongodb'
 long_description 'Installs/Configures mongodb'
