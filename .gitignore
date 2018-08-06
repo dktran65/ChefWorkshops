@@ -1,0 +1,29 @@
+**/spec
+**/test
+**/.delivery
+
+.vagrant
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+
+# Bundler
+Gemfile.lock
+gems.locked
+bin/*
+.bundle/*
+
+# test kitchen
+**/.kitchen.yml
+.kitchen/
+.kitchen.local.yml
+
+
+# Chef
+**/.chef
+Berksfile.lock
+.zero-knife.rb
+Policyfile.lock.json
