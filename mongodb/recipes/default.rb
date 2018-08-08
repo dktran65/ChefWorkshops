@@ -5,7 +5,7 @@
 # Copyright:: 2018, The Authors, All Rights Reserved.
 ##
 
-# Use the correct mongodb source based on the current system build
+# Determind and use the correct mongodb source based on the current system build
 if RbConfig::CONFIG["host_cpu"] == "x86_64"
 	base_url = "http://downloads-distro.mongodb.org/repo/redhat/os/x86_64/"
 else
@@ -24,7 +24,7 @@ package "mongodb-org" do
 	action :install
 end
 
+# Make mongod is started now, and enable to start up at system reboot time
 service "mongod" do
     action [:start, :enable]
 end
-

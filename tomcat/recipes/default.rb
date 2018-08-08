@@ -62,7 +62,7 @@ end
 # $ sudo systmclt daemon-reload
 execute 'systemctl daemon-reload'
 
-# Make tomcat is started now, and enable to start up at reboot time
+# Make tomcat is started now, and enable to start up at system reboot time
 # $ sudo systemctl start tomcat
 # $ sudo systemctl enable tomcat
 service 'tomcat' do
