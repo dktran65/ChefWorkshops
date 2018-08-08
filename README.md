@@ -1,10 +1,9 @@
 # ChefWorkshops
 
 ## Basics
-The cookbooks in this repo will install
+The following cookbooks in this repo will install for Linux CentOS 7.5 
 - MongoDB v2.6.12
 - Tomcat 8.5.32
-on Linux CentOS 7.5
 
 
 ## Details
