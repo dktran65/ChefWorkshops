@@ -1,10 +1,11 @@
 # ChefWorkshops
 
 ## Basics
-The cookbooks in this repo will install mongoDB v2.6.12 and tomcat 8.5.32 on CentOS 7.5
-- RHEL version:    $> cat /etc/redhat-release  (or using this command $> hostnamectl )
-- MongoDB version: $> mongo --version
-- Tomcat version:: $>
+The cookbooks in this repo will install
+- MongoDB v2.6.12
+- Tomcat 8.5.32
+on Linux CentOS 7.5
+
 
 ## Details
 The MongoDB cookbook is a simple installation

@@ -5,7 +5,7 @@
 - $> chef generate recipe cookbooks/mongodb  default
 - $> chef generate template cookbooks/mongodb  mongodb.repo.erb
 #
-# Then makes edits to the files:
+# Then make edits to the files:
 For the recipes/default.rb
 
     * Add four steps

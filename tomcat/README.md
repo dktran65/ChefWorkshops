@@ -7,7 +7,7 @@ TODO: Enter the cookbook description here.
 - $> chef generate recipe cookbooks/tomcat default
 - $> chef generate template cookbooks/tomcat tomcat.services.erb
 
-## Then makes edits to the files:
+## Then make edits to the following files:
 For the recipes/default.rb
 
     * Step to create user/group
